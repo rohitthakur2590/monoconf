@@ -2,6 +2,9 @@ import nmap
 
 
 class netmapper:
+    """
+    netmapper parent class
+    """
     def __init__(self) -> None:
         self.scanner = nmap.PortScanner()
         self.ip_addr = None
