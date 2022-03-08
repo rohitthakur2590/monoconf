@@ -1,4 +1,3 @@
-# import pytest
 from mopoconf.netmapper import display
 
 
