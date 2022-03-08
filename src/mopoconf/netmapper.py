@@ -1,16 +1,3 @@
-import nmap
-
-
-class netmapper:
-    def __init__(self) -> None:
-        self.scanner = nmap.PortScanner()
-        self.ip_addr = None
-        self.resp = None
-
-
-netmonitor = netmapper()
-
-
 def display():
     return "netmapper monitor"
 
